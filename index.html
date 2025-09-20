@@ -23,11 +23,14 @@
       font-family: Arial, sans-serif;
     }
     .bio {
-      max-width: 500px; /* control width for line breaks */
-      text-align: center;
-      font-size: 18px;
-      line-height: 1.6;
-    }
+  width: 90%;
+  max-width: 500px;   
+  margin: 0 auto;
+  text-align: center;
+  font-size: clamp(14px, 4vw, 18px);
+  line-height: 1.6;
+}
+
   </style>
 </head>
     <body>
@@ -35,10 +38,10 @@
             <br>
             <br>
             <br>
-  <img src="images/Unclesuns.jpg" alt="Profile Picture" style="border-radius: 50%; width: 10vw; max-width: 150px; height: auto;">
+  <img src="images/Unclesuns.jpg" alt="Profile Picture" style="border-radius: 50%; width: 30vw; max-width: 160px; height: auto;">
             <br>
             <div style="text-align: center;">
-  <span style="font-family: monospace; font-size: 26px;"><b>uncle suns</b></span>
+  <span style="font-family: monospace; font-size: clamp(18px, 5vw, 26px); font-weight: bold;"><b>uncle suns</b></span>
     <img src="images/VerifiedBadge.jpg" alt="Badge" width="26" height="26" style="vertical-align: -0.35em;">
 </div>
             <div class="bio">
